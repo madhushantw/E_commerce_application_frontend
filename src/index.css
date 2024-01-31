@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-menu hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #da4040;
+}
+ion-icon {
+  font-size: 25px;
+}
+.hero-left p{
+  line-height: 1.1;
+  padding: auto 10px;
+}
+.hero-latest-btn{
+  height: 70px;
+  width: 310px;
+  font-size: 22px;
+}
+.hero-right img{
+  height: 100%;
+}
+.offers{
+  width: 85%;
+}
+.news-letter{
+  width: 75%;
+  height: 40vh;
+}
+.news-letter input{
+  width: 500px;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  color: #616161;
+  font-size: 16px;
+}
+.news-letter div{
+  width: 730px;
+  height: 70px;
+}
