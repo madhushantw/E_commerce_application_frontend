@@ -13,7 +13,7 @@ const ShopCategory = (props) => {
           <span className='font-bold '>Showing 1-12</span> out of 36 products
         </p>
         <div className="flex items-center grid-cols-2 gap-2 px-6 py-3 border-2 border-gray-500 rounded-full shopcategory-sort">
-          Sort by <img src={dropdown_icon} />
+          Sort by <img alt='down' src={dropdown_icon} />
         </div>
       </div>
       <div className="flex flex-wrap items-center justify-center m-auto mt-12 shopcategory-product gap-7">
